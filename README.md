@@ -1,1 +1,61 @@
-# MyPortfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Building Digital <br><span class="gradient-text">Experiences.</span></h1>
+            <p>Creative Professional & Strategic Thinker</p>
+            <a href="#work" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="work" class="portfolio-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500')"></div>
+                <div class="card-info">
+                    <h3>Modern Branding</h3>
+                    <p>Visual Identity Design</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"></div>
+                <div class="card-info">
+                    <h3>UI/UX Development</h3>
+                    <p>Web Application Architecture</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=500')"></div>
+                <div class="card-info">
+                    <h3>Visual Storytelling</h3>
+                    <p>Cinematic Production</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Creative Portfolio. Built with passion.</p>
+    </footer>
+</body>
+</html>
