@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 60, // Adjusts for a fixed header
+                top: targetElement.offsetTop - 40, // Adjusts for a fixed header 70
                 behavior: 'smooth'
             });
         }
