@@ -36,7 +36,7 @@ nav {
 .logo { font-weight: 700; font-size: 1.5rem; letter-spacing: 1px; }
 .logo span { color: var(--accent); }
 .logo img {
-    height: 40px;                  /* Change this to adjust logo size */
+    height: 100px;                  /* Change this to adjust logo size */
     width: auto;                   /* Maintains proportions */
     display: block;
     transition: transform 0.3s ease;
