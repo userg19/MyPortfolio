@@ -22,24 +22,48 @@ body {
 /* Navigation */
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 10%;
+    justify-content: space-between; /* Pushes logo left, links right */
+    align-items: center;            /* Vertical center */
+    padding: 1.2rem 8%;            /* Adjust 8% to control how far from the edge it sits */
     position: fixed;
+    top: 0;
     width: 100%;
-    z-index: 100;
-    background: rgba(10, 10, 10, 0.8);
+    background: rgba(10, 10, 10, 0.95);
     backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 .logo { font-weight: 700; font-size: 1.5rem; letter-spacing: 1px; }
 .logo span { color: var(--accent); }
+.logo img {
+    height: 40px;                  /* Change this to adjust logo size */
+    width: auto;                   /* Maintains proportions */
+    display: block;
+    transition: transform 0.3s ease;
+}
+.logo img:hover {
+    transform: scale(1.05);        /* Subtle interactive pop */
+}
 
 nav ul { display: flex; list-style: none; }
 nav ul li { margin-left: 2rem; }
 nav ul li a { text-decoration: none; color: var(--text-main); font-weight: 300; transition: 0.3s; }
 nav ul li a:hover { color: var(--accent); }
-
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 5px;                     /* Spacing between the links */
+}
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #007bff;                /* Matches your gradient theme */
+}
 /* Hero Section */
 .hero {
     height: 100vh;
