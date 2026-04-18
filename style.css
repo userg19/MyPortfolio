@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-between; /* Pushes logo left, links right */
     align-items: center;            /* Vertical center */
-    padding: 1.2rem 8%;            /* Adjust 8% to control how far from the edge it sits */
+    padding: 1.2rem 5%;            /* Adjust 8% to control how far from the edge it sits */
     position: fixed;
     top: 0;
     width: 100%;
